@@ -13,8 +13,8 @@ public class HomePage extends BasePage {
 
     @FindBy(xpath = "//h1[contains(text(),'Welcome to the-internet')]")
     WebElement homePageComponent;
-    public boolean isHomeComponentPresent() {
-        return homePageComponent.isDisplayed();
-    }
 
+    public boolean isHomeComponentPresent() {
+        return isElementPresent(homePageComponent);
+    }
 }

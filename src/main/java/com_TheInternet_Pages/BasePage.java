@@ -23,4 +23,7 @@ public class BasePage {
             element.sendKeys(text);
         }
     }
+    public boolean isElementPresent(WebElement element) {
+        return element.isDisplayed();
+    }
 }
