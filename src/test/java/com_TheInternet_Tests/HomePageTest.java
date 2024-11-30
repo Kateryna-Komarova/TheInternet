@@ -10,7 +10,6 @@ public class HomePageTest extends TestBase{
 
     @Test
     public void homePageIsPresent(){
-        boolean isPresent = new HomePage(driver).isHomeComponentPresent();
-        Assert.assertTrue(isPresent,"Home page is present");
+        Assert.assertTrue(new HomePage(driver).isHomeComponentPresent(), "Home page is not present");
     }
 }

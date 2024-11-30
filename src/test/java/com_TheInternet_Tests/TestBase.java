@@ -18,9 +18,8 @@ public class TestBase {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
-    @AfterMethod(enabled = true)
+    @AfterMethod(enabled = false)
         public void tearDown(){
         driver.quit();
     }
-
 }
