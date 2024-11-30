@@ -15,4 +15,26 @@ public class FrameTests extends TestBase{
     public void positiveIFrame(){
         new FramePage(driver).getIframe().verifyIframe("An iFrame containing the TinyMCE WYSIWYG Editor");
     }
+
+
+    @Test
+    public  void nestedFrameTestLeft(){
+        new FramePage(driver).getNestedFrames().getTopFrame();
+    }
+
+    @Test
+    public  void nestedFrameTestMiddle(){
+        new FramePage(driver).getNestedFrames().middleFrame();
+    }
+
+    @Test
+    public void nestedFrameTestRight(){
+        new FramePage(driver).getNestedFrames().rightFrame();
+
+    }
+
+    @Test
+    public void nestedFrameTestBottom(){
+        new FramePage(driver).getNestedFrames().getBottom();
+    }
 }

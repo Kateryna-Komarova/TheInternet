@@ -41,6 +41,43 @@ public class FramePage extends BasePage {
         return this;
     }
 
+    @FindBy(xpath = "/html/frameset/frame[1]")
+    WebElement topFrameSet;
+    public FramePage getTopFrame() {
+        driver.switchTo().frame(topFrameSet);
+        driver.switchTo().frame(0);
+        WebElement content = driver.findElement(By.tagName("body"));
+        String actualText = content.getText();
+        System.out.println(actualText);
+        return this;
+    }
+    public FramePage middleFrame(){
+        driver.switchTo().frame(topFrameSet);
+        driver.switchTo().frame(1);
+        WebElement content = driver.findElement(By.tagName("body"));
+        String actualText = content.getText();
+        System.out.println(actualText);
+        return this;
+    }
+
+    public FramePage rightFrame() {
+        driver.switchTo().frame(topFrameSet);
+        driver.switchTo().frame(2);
+        WebElement content = driver.findElement(By.tagName("body"));
+        String actualText = content.getText();
+        System.out.println(actualText);
+        return this;
+    }
+
+    @FindBy(xpath = "/html/frameset/frame[2]")
+    WebElement bottomFrame;
+    public FramePage getBottom() {
+        driver.switchTo().frame(bottomFrame);
+        WebElement content = driver.findElement(By.tagName("body"));
+        String actualText = content.getText();
+        System.out.println(actualText);
+        return this;
+    }
 }
 
 
