@@ -6,11 +6,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 
-public class FramePage extends BasePage{
+public class FramePage extends BasePage {
     public FramePage(WebDriver driver) {
         super(driver);
     }
-    public FramePage  switchToIframeByIndex(int index) {
+
+    public FramePage switchToIframeByIndex(int index) {
         driver.switchTo().frame(index);
         return this;
 
@@ -34,36 +35,15 @@ public class FramePage extends BasePage{
 
     @FindBy(xpath = "//*[@id='content']/div/ul/li[1]/a")
     WebElement nestedFrames;
+
     public FramePage getNestedFrames() {
         click(nestedFrames);
         return this;
     }
 
-
-
-    @FindBy(xpath = "/html/frameset/frame[1]")
-    WebElement firstFrame;
-    public FramePage getFirstFrame() {
-        driver.switchTo().frame(0);
-        System.out.println("Left frame" + firstFrame.getText());
-        return this;
-    }
-
-    @FindBy(xpath = "/html/frameset/frame[2]")
-    WebElement secondFrame;
-    public FramePage getSecondFrame() {
-        driver.switchTo().frame(secondFrame);
-        return this;
-    }
-
-    @FindBy(xpath = "//html/frameset/frame[3]")
-    WebElement thirdFrame;
-    public FramePage getThirdFrame() {
-        driver.switchTo().frame(thirdFrame);
-        return this;
-    }
-
 }
+
+
 
 
 
