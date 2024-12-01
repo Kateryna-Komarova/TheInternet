@@ -6,6 +6,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 
+import java.util.List;
+
 public class FramePage extends BasePage {
     public FramePage(WebDriver driver) {
         super(driver);
@@ -78,6 +80,23 @@ public class FramePage extends BasePage {
         Assert.assertTrue(jamIframe.getText().contains(text));
         return this;
     }
+
+
+    @FindBy(tagName="iframe")
+    List<WebElement> iframe;
+    public FramePage returnListOfframe() {
+        System.out.println("The total number of iframes are " + iframe.size());
+        return this;
+    }
+
+    @FindBy(xpath = "//p[contains(text(),'Your content goes here')]")
+    WebElement contentText;
+    public FramePage verifyIframeByText(String text) {
+        Assert.assertTrue(shouldHaveText(contentText,text,1));
+        return this;
+    }
+
+
 }
 
 
