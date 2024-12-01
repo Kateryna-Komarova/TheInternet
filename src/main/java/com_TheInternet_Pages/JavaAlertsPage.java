@@ -17,6 +17,9 @@ public class JavaAlertsPage extends BasePage{
 
     public JavaAlertsPage getJSAlert() {
         click(JSAlert);
+        String alertText = driver.switchTo().alert().getText();
+        System.out.println("Text"+alertText);
+        Assert.assertEquals(alertText, "I am a JS Alert", "Alert text does not match!");
         return this;
 
     }
@@ -26,6 +29,8 @@ public class JavaAlertsPage extends BasePage{
 
     public JavaAlertsPage getConfirmAlert() {
         click(Confirm);
+        String alertText = driver.switchTo().alert().getText();
+        Assert.assertEquals(alertText, "I am a JS Confirm", "Alert text does not match!");
         return this;
     }
 
@@ -42,7 +47,6 @@ public class JavaAlertsPage extends BasePage{
 
     @FindBy(xpath = "//button[contains(text(),'Click for JS Alert')]")
     WebElement alert;
-
     public JavaAlertsPage isSomeButtonActive() {
         click(alert);
         return this;

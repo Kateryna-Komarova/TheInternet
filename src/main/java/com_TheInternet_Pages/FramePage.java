@@ -19,17 +19,8 @@ public class FramePage extends BasePage {
 
     @FindBy(xpath = "//*[@id='content']/div/ul/li[2]/a")
     WebElement iFrame;
-
     public FramePage getIframe() {
         click(iFrame);
-        return this;
-    }
-
-    @FindBy(xpath = "//*[@id='content']/div/h3")
-    WebElement title;
-
-    public FramePage verifyIframe(String text) {
-        Assert.assertTrue(title.getText().contains(text));
         return this;
     }
 
@@ -76,6 +67,15 @@ public class FramePage extends BasePage {
         WebElement content = driver.findElement(By.tagName("body"));
         String actualText = content.getText();
         Assert.assertEquals(actualText,"BOTTOM");
+        return this;
+    }
+
+
+    @FindBy (xpath = "//*[@id=\"tinymce\"]']")
+    WebElement jamIframe;
+    public FramePage verifyIframe(String text) {
+        driver.switchTo().frame(jamIframe);
+        Assert.assertTrue(jamIframe.getText().contains(text));
         return this;
     }
 }

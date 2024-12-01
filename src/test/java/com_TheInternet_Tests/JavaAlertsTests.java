@@ -13,25 +13,14 @@ public class JavaAlertsTests extends TestBase {
         new HomePage(driver).getJavaAlerts();
     }
 
-
     @Test
     public void firstAlert() {
         new JavaAlertsPage(driver).getJSAlert();
-        String alertText = getAlertText();
-        Assert.assertEquals(alertText, "I am a JS Alert", "Alert text does not match!");
-    }
-
-    private String getAlertText() {
-        String alertText = driver.switchTo().alert().getText();
-        return alertText;
     }
 
     @Test
     public void secondAlert() {
         new JavaAlertsPage(driver).getConfirmAlert();
-        String alertText = driver.switchTo().alert().getText();
-        Assert.assertEquals(alertText, "I am a JS Confirm", "Alert text does not match!");
-
     }
 
     @Test
