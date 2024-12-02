@@ -73,13 +73,13 @@ public class FramePage extends BasePage {
     }
 
 
-    @FindBy (xpath = "//*[@id=\"tinymce\"]']")
-    WebElement jamIframe;
-    public FramePage verifyIframe(String text) {
-        driver.switchTo().frame(jamIframe);
-        Assert.assertTrue(jamIframe.getText().contains(text));
-        return this;
-    }
+//    @FindBy (xpath = "//*[@id=\"tinymce\"]']")
+//    WebElement jamIframe;
+//    public FramePage verifyIframe(String text) {
+//        driver.switchTo().frame(jamIframe);
+//        Assert.assertTrue(jamIframe.getText().contains(text));
+//        return this;
+//    }
 
 
     @FindBy(tagName="iframe")
@@ -95,8 +95,6 @@ public class FramePage extends BasePage {
         Assert.assertTrue(shouldHaveText(contentText,text,1));
         return this;
     }
-
-
 }
 
 

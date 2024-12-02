@@ -23,8 +23,9 @@ public class HomePage extends BasePage {
 
     @FindBy(xpath = "//a[contains(text(),'JavaScript Alerts')]")
     WebElement javaAlerts;
-    public void getJavaAlerts() {
+    public HomePage getJavaAlerts() {
         click(javaAlerts);
+        return this;
     }
 
 
@@ -35,4 +36,17 @@ public class HomePage extends BasePage {
         return this;
     }
 
+    @FindBy(css = "#content > ul > li:nth-child(33) > a")
+    WebElement multi;
+    public HomePage getMultipleWindow() {
+        click(multi);
+        return this;
+    }
+
+    @FindBy(xpath = "//*[@id=\"content\"]/ul/li[11]/a")
+    WebElement drop;
+    public HomePage getDropdown() {
+        click(drop);
+        return this;
+    }
 }
