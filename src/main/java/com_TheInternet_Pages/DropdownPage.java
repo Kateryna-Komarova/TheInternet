@@ -19,6 +19,7 @@ public class DropdownPage extends BasePage {
         select.selectByVisibleText(text);
         return this;
     }
+
     public DropdownPage verifyTextOption() {
         String firstSelectedOption = new Select(dropDown).getFirstSelectedOption().getText();
         Assert.assertTrue(shouldHaveText(dropDown, firstSelectedOption, 4),

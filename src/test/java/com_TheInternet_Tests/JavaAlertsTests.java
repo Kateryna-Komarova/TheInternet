@@ -30,7 +30,7 @@ public class JavaAlertsTests extends TestBase {
     }
 
     @Test
-    public void thirdAlertTest(){
+    public void thirdAlertTest() {
         new JavaAlertsPage(driver).sendMessage("I am a JS prompt").verifyMessage("I am a JS prompt");
     }
 }

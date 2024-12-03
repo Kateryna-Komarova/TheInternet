@@ -6,25 +6,25 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 
-public class JavaAlertsPage extends BasePage{
+public class JavaAlertsPage extends BasePage {
     public JavaAlertsPage(WebDriver driver) {
         super(driver);
     }
 
 
-    @FindBy (xpath = "//button[contains(text(),'Click for JS Alert')]")
+    @FindBy(xpath = "//button[contains(text(),'Click for JS Alert')]")
     WebElement JSAlert;
 
     public JavaAlertsPage getJSAlert() {
         click(JSAlert);
         String alertText = driver.switchTo().alert().getText();
-        System.out.println("Text"+alertText);
+        System.out.println("Text" + alertText);
         Assert.assertEquals(alertText, "I am a JS Alert", "Alert text does not match!");
         return this;
 
     }
 
-    @FindBy (xpath = "//button[contains(text(),'Click for JS Confirm')]")
+    @FindBy(xpath = "//button[contains(text(),'Click for JS Confirm')]")
     WebElement Confirm;
 
     public JavaAlertsPage getConfirmAlert() {
@@ -47,6 +47,7 @@ public class JavaAlertsPage extends BasePage{
 
     @FindBy(xpath = "//button[contains(text(),'Click for JS Alert')]")
     WebElement alert;
+
     public JavaAlertsPage isSomeButtonActive() {
         click(alert);
         return this;
@@ -57,7 +58,7 @@ public class JavaAlertsPage extends BasePage{
 
     public JavaAlertsPage sendMessage(String message) {
         click(prompt);
-        if(message != null ){
+        if (message != null) {
             driver.switchTo().alert().sendKeys(message);
             driver.switchTo().alert().accept();
         }
@@ -66,6 +67,7 @@ public class JavaAlertsPage extends BasePage{
 
     @FindBy(id = "result")
     WebElement result;
+
     public JavaAlertsPage verifyMessage(String text) {
         Assert.assertTrue(result.getText().contains(text));
         return this;

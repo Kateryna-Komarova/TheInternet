@@ -6,7 +6,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 
-public class DragAndDropPage extends BasePage{
+public class DragAndDropPage extends BasePage {
     public DragAndDropPage(WebDriver driver) {
         super(driver);
     }
@@ -18,12 +18,12 @@ public class DragAndDropPage extends BasePage{
     WebElement dropHere;
 
     public DragAndDropPage dragAction() {
-        new Actions(driver).dragAndDrop(dragMe,dropHere).perform();
+        new Actions(driver).dragAndDrop(dragMe, dropHere).perform();
         return this;
     }
 
     public DragAndDropPage verifyDropText(String text) {
-        Assert.assertTrue(shouldHaveText(dropHere,text,5));
+        Assert.assertTrue(shouldHaveText(dropHere, text, 5));
         return this;
     }
 }

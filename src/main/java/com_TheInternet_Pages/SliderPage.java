@@ -10,7 +10,8 @@ public class SliderPage extends BasePage {
     public SliderPage(WebDriver driver) {
         super(driver);
     }
-    @FindBy(css = "input[type=\"range\"]")
+
+    @FindBy(css = "input[type='range']")
     WebElement slider;
 
     public SliderPage moveSlider() {
@@ -20,6 +21,7 @@ public class SliderPage extends BasePage {
         return this;
 
     }
+
     @FindBy(id = "range")
     WebElement range;
 

@@ -5,14 +5,14 @@ import com_TheInternet_Pages.HomePage;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class DropdownTests extends TestBase{
+public class DropdownTests extends TestBase {
     @BeforeMethod
-    public void precondition(){
+    public void precondition() {
         new HomePage(driver).getDropdown();
     }
 
     @Test
-    public void selectDrop(){
+    public void selectDrop() {
         new DropdownPage(driver).selectOption("Option 2").verifyTextOption();
     }
 }

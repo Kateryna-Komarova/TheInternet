@@ -49,7 +49,7 @@ public class FramePage extends BasePage {
         driver.switchTo().frame(1);
         WebElement content = driver.findElement(By.tagName("body"));
         String actualText = content.getText();
-        Assert.assertEquals(actualText,"MIDDLE");
+        Assert.assertEquals(actualText, "MIDDLE");
         return this;
     }
 

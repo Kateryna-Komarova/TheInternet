@@ -23,6 +23,7 @@ public class HomePage extends BasePage {
 
     @FindBy(xpath = "//a[contains(text(),'JavaScript Alerts')]")
     WebElement javaAlerts;
+
     public HomePage getJavaAlerts() {
         click(javaAlerts);
         return this;
@@ -31,6 +32,7 @@ public class HomePage extends BasePage {
 
     @FindBy(xpath = "//*[@id='content']/ul/li[22]/a")
     WebElement frame;
+
     public HomePage getFrameLink() {
         click(frame);
         return this;
@@ -38,26 +40,29 @@ public class HomePage extends BasePage {
 
     @FindBy(css = "#content > ul > li:nth-child(33) > a")
     WebElement multi;
+
     public HomePage getMultipleWindow() {
         click(multi);
         return this;
     }
 
-    @FindBy(xpath = "//*[@id=\"content\"]/ul/li[11]/a")
+    @FindBy(xpath = "//*[@id='content']/ul/li[11]/a")
     WebElement drop;
+
     public HomePage getDropdown() {
         click(drop);
         return this;
     }
 
-    @FindBy(css= "a[href=\"/horizontal_slider\"]")
+    @FindBy(css = "a[href='/horizontal_slider']")
     WebElement slider;
 
     public HomePage getHorizontalSlider() {
         click(slider);
         return this;
     }
-    @FindBy(css = "a[href=\"/drag_and_drop\" ]")
+
+    @FindBy(css = "a[href='/drag_and_drop']")
     WebElement dragDrop;
 
     public HomePage getDragDrop() {
@@ -65,7 +70,7 @@ public class HomePage extends BasePage {
         return this;
     }
 
-    @FindBy(css = "a[href = \"/hovers\"]")
+    @FindBy(css = "a[href = '/hovers']")
     WebElement hovers;
 
     public HomePage getHover() {

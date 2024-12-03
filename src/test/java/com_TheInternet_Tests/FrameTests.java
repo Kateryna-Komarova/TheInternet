@@ -5,14 +5,14 @@ import com_TheInternet_Pages.HomePage;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class FrameTests extends TestBase{
+public class FrameTests extends TestBase {
     @BeforeMethod
-    public void precondition(){
+    public void precondition() {
         new HomePage(driver).getFrameLink();
     }
 
     @Test
-    public void positiveIFrame(){
+    public void positiveIFrame() {
         new FramePage(driver).getIframe()
                 .returnListOfframe()
                 .switchToIframeByIndex(0)
@@ -22,22 +22,22 @@ public class FrameTests extends TestBase{
 
 
     @Test
-    public  void nestedFrameTestLeft(){
+    public void nestedFrameTestLeft() {
         new FramePage(driver).getNestedFrames().getTopFrame();
     }
 
     @Test
-    public  void nestedFrameTestMiddle(){
+    public void nestedFrameTestMiddle() {
         new FramePage(driver).getNestedFrames().middleFrame();
     }
 
     @Test
-    public void nestedFrameTestRight(){
+    public void nestedFrameTestRight() {
         new FramePage(driver).getNestedFrames().rightFrame();
     }
 
     @Test
-    public void nestedFrameTestBottom(){
+    public void nestedFrameTestBottom() {
         new FramePage(driver).getNestedFrames().getBottom();
     }
 }

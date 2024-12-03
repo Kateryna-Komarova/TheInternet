@@ -8,7 +8,7 @@ import org.testng.Assert;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MultipleWindowPage extends BasePage{
+public class MultipleWindowPage extends BasePage {
     public MultipleWindowPage(WebDriver driver) {
         super(driver);
     }
@@ -26,8 +26,9 @@ public class MultipleWindowPage extends BasePage{
 
     @FindBy(xpath = "/html/body/div/h3")
     WebElement title;
+
     public MultipleWindowPage verifyWindowTitle(String text) {
-        Assert.assertTrue(shouldHaveText(title,text,5));
+        Assert.assertTrue(shouldHaveText(title, text, 5));
         return this;
 
     }

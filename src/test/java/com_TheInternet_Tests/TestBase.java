@@ -10,17 +10,18 @@ import java.time.Duration;
 
 public class TestBase {
 
-  public  WebDriver driver;
+    public WebDriver driver;
 
     @BeforeMethod
-    public void init(){
+    public void init() {
         driver = new ChromeDriver();
         driver.get("https://the-internet.herokuapp.com/");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
+
     @AfterMethod(enabled = true)
-        public void tearDown(){
+    public void tearDown() {
         driver.quit();
     }
 
