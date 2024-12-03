@@ -1,5 +1,6 @@
 package com_TheInternet_Pages;
 
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
@@ -33,5 +34,22 @@ public class BasePage {
     public boolean shouldHaveText(WebElement element, String text, int time) {
         return new WebDriverWait(driver, Duration.ofSeconds(time))
                 .until(ExpectedConditions.textToBePresentInElement(element,text));
+    }
+    public  boolean isElementDisplayed(WebElement element){
+        try {
+            element.isDisplayed();
+            return true;
+        }catch (NoSuchElementException exception){
+            exception.getMessage();
+            return false;
+        }
+    }
+
+    public void pause(int millis) {
+        try {
+            Thread.sleep(millis);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

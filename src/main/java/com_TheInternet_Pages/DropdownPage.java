@@ -15,7 +15,7 @@ public class DropdownPage extends BasePage {
     WebElement dropDown;
 
     public DropdownPage selectOption(String text) {
-        Select select = new Select(dropDown);
+        Select select = new Select(dropDown);//new Select(dropDown).selectByVisibleText(text);
         select.selectByVisibleText(text);
         return this;
     }

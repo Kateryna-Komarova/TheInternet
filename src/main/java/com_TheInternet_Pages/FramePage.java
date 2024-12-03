@@ -95,6 +95,11 @@ public class FramePage extends BasePage {
         Assert.assertTrue(shouldHaveText(contentText,text,1));
         return this;
     }
+
+    public FramePage switchToMainPage() {
+        driver.switchTo().defaultContent();
+        return this;
+    }
 }
 
 

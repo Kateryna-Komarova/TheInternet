@@ -49,4 +49,27 @@ public class HomePage extends BasePage {
         click(drop);
         return this;
     }
+
+    @FindBy(css= "a[href=\"/horizontal_slider\"]")
+    WebElement slider;
+
+    public HomePage getHorizontalSlider() {
+        click(slider);
+        return this;
+    }
+    @FindBy(css = "a[href=\"/drag_and_drop\" ]")
+    WebElement dragDrop;
+
+    public HomePage getDragDrop() {
+        click(dragDrop);
+        return this;
+    }
+
+    @FindBy(css = "a[href = \"/hovers\"]")
+    WebElement hovers;
+
+    public HomePage getHover() {
+        click(hovers);
+        return this;
+    }
 }

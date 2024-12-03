@@ -16,7 +16,8 @@ public class FrameTests extends TestBase{
         new FramePage(driver).getIframe()
                 .returnListOfframe()
                 .switchToIframeByIndex(0)
-                .verifyIframeByText("Your content goes here.");
+                .verifyIframeByText("Your content goes here.")
+                .switchToMainPage();
     }
 
 
@@ -33,7 +34,6 @@ public class FrameTests extends TestBase{
     @Test
     public void nestedFrameTestRight(){
         new FramePage(driver).getNestedFrames().rightFrame();
-
     }
 
     @Test
