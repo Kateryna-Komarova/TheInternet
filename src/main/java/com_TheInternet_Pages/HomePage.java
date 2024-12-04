@@ -3,9 +3,6 @@ package com_TheInternet_Pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
-
-import javax.swing.*;
 
 public class HomePage extends BasePage {
 
@@ -75,6 +72,26 @@ public class HomePage extends BasePage {
 
     public HomePage getHover() {
         click(hovers);
+        return this;
+    }
+
+    @FindBy(css = "a[href='/broken_images']")
+    WebElement brokenImages;
+
+    public HomePage getBrokenImages() {
+        click(brokenImages);
+        return this;
+    }
+    @FindBy(xpath = "//a[contains(text(),'Redirect Link')]")
+    WebElement redirector;
+    public HomePage getRedirectLink() {
+        click(redirector);
+        return this;
+    }
+    @FindBy(id = "redirect")
+    WebElement redirect;
+    public HomePage getStatusCodeLink() {
+        click(redirect);
         return this;
     }
 }
