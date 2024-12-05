@@ -18,7 +18,7 @@ public class BrokenImagesPage extends BasePage {
         System.out.println(images.size() + " - " + "images");
         for (int i = 0; i < images.size(); i++) {
             WebElement element = images.get(i);
-            String imageURL = element.getDomAttribute("src");
+            String imageURL = element.getAttribute("src");
             verifyLinks(imageURL);
             try {
                 boolean imageDisplayed = (Boolean)

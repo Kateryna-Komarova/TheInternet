@@ -32,7 +32,6 @@ public class RedirectLinksPage extends BasePage {
             WebElement element = allLinks.get(i);
             String url = element.getDomAttribute("href");
             verifyLinks(url);
-
         }
         return this;
     }
