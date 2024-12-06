@@ -1,7 +1,7 @@
 package com_TheInternet_Tests;
 
-import com_TheInternet_Pages.HomePage;
-import com_TheInternet_Pages.MultipleWindowPage;
+import theInternet.pages.HomePage;
+import theInternet.pages.MultipleWindowPage;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 

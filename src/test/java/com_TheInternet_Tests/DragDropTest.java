@@ -1,7 +1,7 @@
 package com_TheInternet_Tests;
 
-import com_TheInternet_Pages.DragAndDropPage;
-import com_TheInternet_Pages.HomePage;
+import theInternet.pages.DragAndDropPage;
+import theInternet.pages.HomePage;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 

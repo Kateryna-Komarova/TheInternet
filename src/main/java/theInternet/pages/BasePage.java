@@ -1,4 +1,4 @@
-package com_TheInternet_Pages;
+package theInternet.pages;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.NoSuchElementException;

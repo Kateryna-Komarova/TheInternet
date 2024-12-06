@@ -1,0 +1,74 @@
+19:17:05.894 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/kato/Library/Caches/JetBrains/IdeaIC2024.1/temp-testng-customsuite.xml
+
+19:17:11.377 [main] INFO  com_TheInternet_Tests.TestBase - Start test: loginTest
+19:17:11.383 [main] INFO  theInternet.utils.MyListener - The locator will findBy.cssSelector: a[href='/login']
+19:17:11.384 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+19:17:11.397 [main] INFO  theInternet.utils.MyListener - The locator found By.cssSelector: a[href='/login']
+19:17:11.397 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+19:17:12.055 [main] INFO  theInternet.utils.MyListener - The locator will findBy.id: username
+19:17:12.055 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+19:17:12.066 [main] INFO  theInternet.utils.MyListener - The locator found By.id: username
+19:17:12.066 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+19:17:12.101 [main] INFO  theInternet.utils.MyListener - The locator will findBy.id: username
+19:17:12.101 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+19:17:12.110 [main] INFO  theInternet.utils.MyListener - The locator found By.id: username
+19:17:12.110 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+19:17:12.127 [main] INFO  theInternet.utils.MyListener - The locator will findBy.id: username
+19:17:12.127 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+19:17:12.135 [main] INFO  theInternet.utils.MyListener - The locator found By.id: username
+19:17:12.135 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+19:17:12.259 [main] INFO  theInternet.utils.MyListener - The locator will findBy.id: password
+19:17:12.259 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+19:17:12.269 [main] INFO  theInternet.utils.MyListener - The locator found By.id: password
+19:17:12.269 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+19:17:12.309 [main] INFO  theInternet.utils.MyListener - The locator will findBy.id: password
+19:17:12.309 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+19:17:12.319 [main] INFO  theInternet.utils.MyListener - The locator found By.id: password
+19:17:12.319 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+19:17:12.332 [main] INFO  theInternet.utils.MyListener - The locator will findBy.id: password
+19:17:12.332 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+19:17:12.341 [main] INFO  theInternet.utils.MyListener - The locator found By.id: password
+19:17:12.341 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+19:17:12.361 [main] INFO  theInternet.utils.MyListener - The locator will findBy.id: login
+19:17:12.361 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+19:17:12.374 [main] INFO  theInternet.utils.MyListener - The locator found By.id: login
+19:17:12.374 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+19:17:12.411 [main] INFO  theInternet.utils.MyListener - The locator will findBy.id: flash
+19:17:12.411 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+19:17:22.466 [main] INFO  theInternet.utils.MyListener - The test have a problem
+19:17:22.466 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+19:17:22.466 [main] INFO  theInternet.utils.MyListener - Method --> findElement
+19:17:22.466 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+19:17:22.466 [main] INFO  theInternet.utils.MyListener - Target exception --> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#flash"}
+  (Session info: chrome=131.0.6778.109)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1.1', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b78d8a975fa4fb7432a0a3bc76951a74, findElement {using=id, value=flash}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.109, chrome: {chromedriverVersion: 131.0.6778.69 (77e2244bbcda..., userDataDir: /var/folders/zr/s6qq0q7j1jd...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61665}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:61665/devtoo..., se:cdpVersion: 131.0.6778.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b78d8a975fa4fb7432a0a3bc76951a74
+19:17:22.466 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+19:17:22.466 [main] INFO  theInternet.utils.MyListener - Object target --> ChromeDriver: chrome on mac (b78d8a975fa4fb7432a0a3bc76951a74)
+19:17:22.466 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+19:17:22.618 [main] INFO  theInternet.utils.MyListener - The locator will findBy.id: flash
+19:17:22.618 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+19:17:32.635 [main] INFO  theInternet.utils.MyListener - The test have a problem
+19:17:32.635 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+19:17:32.635 [main] INFO  theInternet.utils.MyListener - Method --> findElement
+19:17:32.635 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+19:17:32.636 [main] INFO  theInternet.utils.MyListener - Target exception --> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#flash"}
+  (Session info: chrome=131.0.6778.109)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1.1', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b78d8a975fa4fb7432a0a3bc76951a74, findElement {using=id, value=flash}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.109, chrome: {chromedriverVersion: 131.0.6778.69 (77e2244bbcda..., userDataDir: /var/folders/zr/s6qq0q7j1jd...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61665}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:61665/devtoo..., se:cdpVersion: 131.0.6778.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b78d8a975fa4fb7432a0a3bc76951a74
+19:17:32.636 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+19:17:32.636 [main] INFO  theInternet.utils.MyListener - Object target --> ChromeDriver: chrome on mac (b78d8a975fa4fb7432a0a3bc76951a74)
+19:17:32.636 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+19:17:32.800 [main] ERROR com_TheInternet_Tests.TestBase - Test result: Failed loginTest
+19:17:32.800 [main] INFO  com_TheInternet_Tests.TestBase - ****************************************************************

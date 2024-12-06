@@ -1,8 +1,7 @@
 package com_TheInternet_Tests;
 
-import com_TheInternet_Pages.HomePage;
-import com_TheInternet_Pages.JavaAlertsPage;
-import org.testng.Assert;
+import theInternet.pages.HomePage;
+import theInternet.pages.JavaAlertsPage;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 

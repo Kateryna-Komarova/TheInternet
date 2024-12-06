@@ -1,7 +1,7 @@
 package com_TheInternet_Tests;
 
-import com_TheInternet_Pages.HomePage;
-import com_TheInternet_Pages.SliderPage;
+import theInternet.pages.HomePage;
+import theInternet.pages.SliderPage;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 

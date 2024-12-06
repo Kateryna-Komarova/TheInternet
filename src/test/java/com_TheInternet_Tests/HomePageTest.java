@@ -1,8 +1,7 @@
 package com_TheInternet_Tests;
 
-import com_TheInternet_Pages.HomePage;
+import theInternet.pages.HomePage;
 import org.testng.Assert;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class HomePageTest extends TestBase {

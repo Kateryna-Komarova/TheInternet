@@ -1,12 +1,10 @@
-package com_TheInternet_Pages;
+package theInternet.pages;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
-import org.testng.annotations.Test;
 
 public class HoversPage extends BasePage {
     public HoversPage(WebDriver driver) {

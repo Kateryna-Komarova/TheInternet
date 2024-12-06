@@ -1,7 +1,7 @@
 package com_TheInternet_Tests;
 
-import com_TheInternet_Pages.DropdownPage;
-import com_TheInternet_Pages.HomePage;
+import theInternet.pages.DropdownPage;
+import theInternet.pages.HomePage;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 

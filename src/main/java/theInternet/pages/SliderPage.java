@@ -1,4 +1,4 @@
-package com_TheInternet_Pages;
+package theInternet.pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

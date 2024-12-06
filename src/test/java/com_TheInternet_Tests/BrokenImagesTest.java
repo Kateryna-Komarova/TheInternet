@@ -1,8 +1,7 @@
 package com_TheInternet_Tests;
 
-import com_TheInternet_Pages.BrokenImagesPage;
-import com_TheInternet_Pages.HomePage;
-import com_TheInternet_Pages.HoversPage;
+import theInternet.pages.BrokenImagesPage;
+import theInternet.pages.HomePage;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 

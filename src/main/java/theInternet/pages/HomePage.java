@@ -1,4 +1,4 @@
-package com_TheInternet_Pages;
+package theInternet.pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -100,6 +100,21 @@ public class HomePage extends BasePage {
 
     public HomePage getUploadLink() {
         click(upload);
+        return this;
+    }
+    @FindBy(css = "a[href='/checkboxes']")
+    WebElement checkboxes;
+
+    public HomePage getCheckBox() {
+        click(checkboxes);
+        return this;
+    }
+
+    @FindBy(css = "a[href='/login']")
+    WebElement login;
+
+    public HomePage getLoginLink() {
+        click(login);
         return this;
     }
 }
