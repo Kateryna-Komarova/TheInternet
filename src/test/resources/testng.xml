@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Test" verbose="1">
+    <test name="Test">
+        <classes>
+            <class name="com_TheInternet_Tests.DropdownTests"/>
+            <class name="com_TheInternet_Tests.BrokenImagesTest"/>
+            <class name="com_TheInternet_Tests.HomePageTest"/>
+            <class name="com_TheInternet_Tests.HoverTest"/>
+            <class name="com_TheInternet_Tests.FrameTests"/>
+            <class name="com_TheInternet_Tests.DragDropTest"/>
+            <class name="com_TheInternet_Tests.EntryAdTest"/>
+            <class name="com_TheInternet_Tests.JavaAlertsTests"/>
+            <class name="com_TheInternet_Tests.MultipleWindowTest"/>
+            <class name="com_TheInternet_Tests.SliderTest"/>
+            <class name="com_TheInternet_Tests.UploadFileTest"/>
+        </classes>
+    </test>
+</suite>

@@ -117,4 +117,12 @@ public class HomePage extends BasePage {
         click(login);
         return this;
     }
+
+    @FindBy(xpath ="//a[contains(text(),'Entry Ad')]")
+    WebElement entryAd;
+
+    public HomePage getEntryAd() {
+        click(entryAd);
+        return this;
+    }
 }

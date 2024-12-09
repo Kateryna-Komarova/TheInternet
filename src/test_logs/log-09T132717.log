@@ -1,0 +1,45 @@
+13:27:21.493 [main] INFO  com_TheInternet_Tests.TestBase - Start test: loginTest
+13:27:21.500 [main] INFO  theInternet.utils.MyListener - The locator will findBy.cssSelector: a[href='/login']
+13:27:21.500 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+13:27:21.516 [main] INFO  theInternet.utils.MyListener - The locator found By.cssSelector: a[href='/login']
+13:27:21.516 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+13:27:21.969 [main] INFO  theInternet.utils.MyListener - The locator will findBy.id: username
+13:27:21.969 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+13:27:21.990 [main] INFO  theInternet.utils.MyListener - The locator found By.id: username
+13:27:21.990 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+13:27:22.037 [main] INFO  theInternet.utils.MyListener - The locator will findBy.id: username
+13:27:22.037 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+13:27:22.047 [main] INFO  theInternet.utils.MyListener - The locator found By.id: username
+13:27:22.047 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+13:27:22.061 [main] INFO  theInternet.utils.MyListener - The locator will findBy.id: username
+13:27:22.061 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+13:27:22.069 [main] INFO  theInternet.utils.MyListener - The locator found By.id: username
+13:27:22.069 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+13:27:22.130 [main] INFO  theInternet.utils.MyListener - The locator will findBy.id: password
+13:27:22.130 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+13:27:22.146 [main] INFO  theInternet.utils.MyListener - The locator found By.id: password
+13:27:22.146 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+13:27:22.174 [main] INFO  theInternet.utils.MyListener - The locator will findBy.id: password
+13:27:22.174 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+13:27:22.182 [main] INFO  theInternet.utils.MyListener - The locator found By.id: password
+13:27:22.182 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+13:27:22.194 [main] INFO  theInternet.utils.MyListener - The locator will findBy.id: password
+13:27:22.194 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+13:27:22.202 [main] INFO  theInternet.utils.MyListener - The locator found By.id: password
+13:27:22.202 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+13:27:22.219 [main] INFO  theInternet.utils.MyListener - The locator will findBy.xpath: //*[@id='login']/button
+13:27:22.219 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+13:27:22.231 [main] INFO  theInternet.utils.MyListener - The locator found By.xpath: //*[@id='login']/button
+13:27:22.231 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+13:27:22.548 [main] INFO  theInternet.utils.MyListener - The locator will findBy.tagName: h4
+13:27:22.548 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+13:27:22.569 [main] INFO  theInternet.utils.MyListener - The locator found By.tagName: h4
+13:27:22.569 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+13:27:22.581 [main] INFO  theInternet.utils.MyListener - The locator will findBy.xpath: //*[@id='content']/div/a/i
+13:27:22.581 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+13:27:22.593 [main] INFO  theInternet.utils.MyListener - The locator found By.xpath: //*[@id='content']/div/a/i
+13:27:22.593 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+13:27:22.892 [main] INFO  theInternet.utils.MyListener - The locator will findBy.tagName: h2
+13:27:22.892 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+13:27:22.907 [main] INFO  theInternet.utils.MyListener - The locator found By.tagName: h2
+13:27:22.907 [main] INFO  theInternet.utils.MyListener - ***********************************************************************

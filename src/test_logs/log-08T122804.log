@@ -1,0 +1,64 @@
+12:28:04.258 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/kato/Library/Caches/JetBrains/IdeaIC2024.1/temp-testng-customsuite.xml
+
+12:28:11.479 [main] INFO  com_TheInternet_Tests.TestBase - Start test: entryAdTest
+12:28:11.487 [main] INFO  theInternet.utils.MyListener - The locator will findBy.xpath: //a[contains(text(),'Entry Ad')]
+12:28:11.487 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+12:28:11.500 [main] INFO  theInternet.utils.MyListener - The locator found By.xpath: //a[contains(text(),'Entry Ad')]
+12:28:11.500 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+12:28:11.680 [main] INFO  theInternet.utils.MyListener - The locator will findBy.id: restart-ad
+12:28:11.680 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+12:28:11.694 [main] INFO  theInternet.utils.MyListener - The locator found By.id: restart-ad
+12:28:11.694 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+12:28:12.870 [main] INFO  theInternet.utils.MyListener - The locator will findBy.xpath: //p[contains(text(),'Close')]
+12:28:12.870 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+12:28:12.889 [main] INFO  theInternet.utils.MyListener - The locator found By.xpath: //p[contains(text(),'Close')]
+12:28:12.889 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+12:28:12.925 [main] INFO  theInternet.utils.MyListener - The locator will findBy.id: restart-ad
+12:28:12.925 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+12:28:12.934 [main] INFO  theInternet.utils.MyListener - The locator found By.id: restart-ad
+12:28:12.934 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+12:28:13.447 [main] INFO  theInternet.utils.MyListener - The locator will findBy.id: restart-ad
+12:28:13.448 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+12:28:13.470 [main] INFO  theInternet.utils.MyListener - The locator found By.id: restart-ad
+12:28:13.470 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+12:28:13.985 [main] INFO  theInternet.utils.MyListener - The locator will findBy.id: restart-ad
+12:28:13.986 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+12:28:14.011 [main] INFO  theInternet.utils.MyListener - The locator found By.id: restart-ad
+12:28:14.011 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+12:28:14.525 [main] INFO  theInternet.utils.MyListener - The locator will findBy.id: restart-ad
+12:28:14.526 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+12:28:14.555 [main] INFO  theInternet.utils.MyListener - The locator found By.id: restart-ad
+12:28:14.555 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+12:28:15.070 [main] INFO  theInternet.utils.MyListener - The locator will findBy.id: restart-ad
+12:28:15.070 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+12:28:15.084 [main] INFO  theInternet.utils.MyListener - The locator found By.id: restart-ad
+12:28:15.084 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+12:28:15.596 [main] INFO  theInternet.utils.MyListener - The locator will findBy.id: restart-ad
+12:28:15.597 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+12:28:15.619 [main] INFO  theInternet.utils.MyListener - The locator found By.id: restart-ad
+12:28:15.619 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+12:28:16.130 [main] INFO  theInternet.utils.MyListener - The locator will findBy.id: restart-ad
+12:28:16.131 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+12:28:16.149 [main] INFO  theInternet.utils.MyListener - The locator found By.id: restart-ad
+12:28:16.150 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+12:28:16.663 [main] INFO  theInternet.utils.MyListener - The locator will findBy.id: restart-ad
+12:28:16.663 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+12:28:16.672 [main] INFO  theInternet.utils.MyListener - The locator found By.id: restart-ad
+12:28:16.672 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+12:28:17.183 [main] INFO  theInternet.utils.MyListener - The locator will findBy.id: restart-ad
+12:28:17.183 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+12:28:17.200 [main] INFO  theInternet.utils.MyListener - The locator found By.id: restart-ad
+12:28:17.200 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+12:28:17.714 [main] INFO  theInternet.utils.MyListener - The locator will findBy.id: restart-ad
+12:28:17.715 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+12:28:17.738 [main] INFO  theInternet.utils.MyListener - The locator found By.id: restart-ad
+12:28:17.738 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+12:28:18.253 [main] INFO  theInternet.utils.MyListener - The locator will findBy.id: restart-ad
+12:28:18.253 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+12:28:18.275 [main] INFO  theInternet.utils.MyListener - The locator found By.id: restart-ad
+12:28:18.275 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+12:28:18.284 [main] INFO  theInternet.utils.MyListener - The locator will findBy.id: restart-ad
+12:28:18.284 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+12:28:18.296 [main] INFO  theInternet.utils.MyListener - The locator found By.id: restart-ad
+12:28:18.296 [main] INFO  theInternet.utils.MyListener - ***********************************************************************

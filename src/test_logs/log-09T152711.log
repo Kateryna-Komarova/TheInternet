@@ -1,0 +1,306 @@
+15:27:22.961 [main] INFO  com_TheInternet_Tests.TestBase - Start test: selectDrop
+15:27:22.971 [main] INFO  theInternet.utils.MyListener - The locator will findBy.xpath: //*[@id='content']/ul/li[11]/a
+15:27:22.971 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:22.986 [main] INFO  theInternet.utils.MyListener - The locator found By.xpath: //*[@id='content']/ul/li[11]/a
+15:27:22.986 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:23.172 [main] INFO  theInternet.utils.MyListener - The locator will findBy.id: dropdown
+15:27:23.172 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:23.186 [main] INFO  theInternet.utils.MyListener - The locator found By.id: dropdown
+15:27:23.186 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:23.189 [main] INFO  theInternet.utils.MyListener - The locator will findBy.id: dropdown
+15:27:23.190 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:23.198 [main] INFO  theInternet.utils.MyListener - The locator found By.id: dropdown
+15:27:23.198 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:23.202 [main] INFO  theInternet.utils.MyListener - The locator will findBy.id: dropdown
+15:27:23.202 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:23.210 [main] INFO  theInternet.utils.MyListener - The locator found By.id: dropdown
+15:27:23.210 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:23.216 [main] INFO  theInternet.utils.MyListener - The locator will findBy.id: dropdown
+15:27:23.216 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:23.224 [main] INFO  theInternet.utils.MyListener - The locator found By.id: dropdown
+15:27:23.224 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:23.258 [main] INFO  theInternet.utils.MyListener - The locator will findBy.id: dropdown
+15:27:23.258 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:23.266 [main] INFO  theInternet.utils.MyListener - The locator found By.id: dropdown
+15:27:23.266 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:23.269 [main] INFO  theInternet.utils.MyListener - The locator will findBy.id: dropdown
+15:27:23.269 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:23.276 [main] INFO  theInternet.utils.MyListener - The locator found By.id: dropdown
+15:27:23.276 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:23.279 [main] INFO  theInternet.utils.MyListener - The locator will findBy.id: dropdown
+15:27:23.279 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:23.286 [main] INFO  theInternet.utils.MyListener - The locator found By.id: dropdown
+15:27:23.286 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:23.333 [main] INFO  theInternet.utils.MyListener - The locator will findBy.id: dropdown
+15:27:23.333 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:23.341 [main] INFO  theInternet.utils.MyListener - The locator found By.id: dropdown
+15:27:23.341 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:26.263 [main] INFO  com_TheInternet_Tests.TestBase - Start test: brokenImageTest
+15:27:26.264 [main] INFO  theInternet.utils.MyListener - The locator will findBy.cssSelector: a[href='/broken_images']
+15:27:26.264 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:26.275 [main] INFO  theInternet.utils.MyListener - The locator found By.cssSelector: a[href='/broken_images']
+15:27:26.275 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:26.929 [main] INFO  theInternet.utils.MyListener - Before find elements By.cssSelector: img
+15:27:26.929 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:26.956 [main] INFO  theInternet.utils.MyListener - List size is 4
+15:27:26.957 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:26.957 [main] INFO  theInternet.utils.MyListener - Before find elements By.cssSelector: img
+15:27:26.957 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:26.976 [main] INFO  theInternet.utils.MyListener - List size is 4
+15:27:26.976 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:26.976 [main] INFO  theInternet.utils.MyListener - Before find elements By.cssSelector: img
+15:27:26.976 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:26.990 [main] INFO  theInternet.utils.MyListener - List size is 4
+15:27:26.990 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:27.588 [main] INFO  theInternet.utils.MyListener - Before find elements By.cssSelector: img
+15:27:27.588 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:27.611 [main] INFO  theInternet.utils.MyListener - List size is 4
+15:27:27.611 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:27.611 [main] INFO  theInternet.utils.MyListener - Before find elements By.cssSelector: img
+15:27:27.611 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:27.628 [main] INFO  theInternet.utils.MyListener - List size is 4
+15:27:27.628 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:28.011 [main] INFO  theInternet.utils.MyListener - Before find elements By.cssSelector: img
+15:27:28.011 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:28.041 [main] INFO  theInternet.utils.MyListener - List size is 4
+15:27:28.041 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:28.041 [main] INFO  theInternet.utils.MyListener - Before find elements By.cssSelector: img
+15:27:28.041 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:28.058 [main] INFO  theInternet.utils.MyListener - List size is 4
+15:27:28.058 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:28.425 [main] INFO  theInternet.utils.MyListener - Before find elements By.cssSelector: img
+15:27:28.425 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:28.436 [main] INFO  theInternet.utils.MyListener - List size is 4
+15:27:28.436 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:28.436 [main] INFO  theInternet.utils.MyListener - Before find elements By.cssSelector: img
+15:27:28.436 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:28.446 [main] INFO  theInternet.utils.MyListener - List size is 4
+15:27:28.447 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:28.828 [main] INFO  theInternet.utils.MyListener - Before find elements By.cssSelector: img
+15:27:28.828 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:28.849 [main] INFO  theInternet.utils.MyListener - List size is 4
+15:27:28.849 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:33.009 [main] INFO  com_TheInternet_Tests.TestBase - Start test: homePageIsPresent
+15:27:33.010 [main] INFO  theInternet.utils.MyListener - The locator will findBy.xpath: //h1[contains(text(),'Welcome to the-internet')]
+15:27:33.010 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:33.022 [main] INFO  theInternet.utils.MyListener - The locator found By.xpath: //h1[contains(text(),'Welcome to the-internet')]
+15:27:33.022 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:36.948 [main] INFO  com_TheInternet_Tests.TestBase - Start test: hoverTest
+15:27:36.948 [main] INFO  theInternet.utils.MyListener - The locator will findBy.cssSelector: a[href = '/hovers']
+15:27:36.949 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:36.957 [main] INFO  theInternet.utils.MyListener - The locator found By.cssSelector: a[href = '/hovers']
+15:27:36.957 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:38.237 [Forwarding actions on session 5017af04af5fd9c11ecc29413a380698 to remote] INFO  theInternet.utils.MyListener - The locator will findBy.cssSelector: .figure:nth-child(3)
+15:27:38.238 [Forwarding actions on session 5017af04af5fd9c11ecc29413a380698 to remote] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:38.255 [Forwarding actions on session 5017af04af5fd9c11ecc29413a380698 to remote] INFO  theInternet.utils.MyListener - The locator found By.cssSelector: .figure:nth-child(3)
+15:27:38.255 [Forwarding actions on session 5017af04af5fd9c11ecc29413a380698 to remote] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:39.372 [main] INFO  theInternet.utils.MyListener - The locator will findBy.cssSelector: h5
+15:27:39.372 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:39.394 [main] INFO  theInternet.utils.MyListener - The locator found By.cssSelector: h5
+15:27:39.394 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:43.861 [main] INFO  com_TheInternet_Tests.TestBase - Start test: nestedFrameTestBottom
+15:27:43.863 [main] INFO  theInternet.utils.MyListener - The locator will findBy.xpath: //*[@id='content']/ul/li[22]/a
+15:27:43.864 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:43.874 [main] INFO  theInternet.utils.MyListener - The locator found By.xpath: //*[@id='content']/ul/li[22]/a
+15:27:43.874 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:44.044 [main] INFO  theInternet.utils.MyListener - The locator will findBy.xpath: //*[@id='content']/div/ul/li[1]/a
+15:27:44.045 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:44.056 [main] INFO  theInternet.utils.MyListener - The locator found By.xpath: //*[@id='content']/div/ul/li[1]/a
+15:27:44.057 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:44.568 [main] INFO  theInternet.utils.MyListener - The locator will findBy.xpath: /html/frameset/frame[2]
+15:27:44.571 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:44.587 [main] INFO  theInternet.utils.MyListener - The locator found By.xpath: /html/frameset/frame[2]
+15:27:44.588 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:44.611 [main] INFO  theInternet.utils.MyListener - The locator will findBy.tagName: body
+15:27:44.613 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:44.624 [main] INFO  theInternet.utils.MyListener - The locator found By.tagName: body
+15:27:44.624 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:48.312 [main] INFO  com_TheInternet_Tests.TestBase - Start test: nestedFrameTestLeft
+15:27:48.313 [main] INFO  theInternet.utils.MyListener - The locator will findBy.xpath: //*[@id='content']/ul/li[22]/a
+15:27:48.313 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:48.322 [main] INFO  theInternet.utils.MyListener - The locator found By.xpath: //*[@id='content']/ul/li[22]/a
+15:27:48.322 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:48.497 [main] INFO  theInternet.utils.MyListener - The locator will findBy.xpath: //*[@id='content']/div/ul/li[1]/a
+15:27:48.498 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:48.509 [main] INFO  theInternet.utils.MyListener - The locator found By.xpath: //*[@id='content']/div/ul/li[1]/a
+15:27:48.509 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:48.974 [main] INFO  theInternet.utils.MyListener - The locator will findBy.xpath: /html/frameset/frame[1]
+15:27:48.974 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:48.986 [main] INFO  theInternet.utils.MyListener - The locator found By.xpath: /html/frameset/frame[1]
+15:27:48.987 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:49.016 [main] INFO  theInternet.utils.MyListener - The locator will findBy.tagName: body
+15:27:49.016 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:49.025 [main] INFO  theInternet.utils.MyListener - The locator found By.tagName: body
+15:27:49.025 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:52.939 [main] INFO  com_TheInternet_Tests.TestBase - Start test: nestedFrameTestMiddle
+15:27:52.943 [main] INFO  theInternet.utils.MyListener - The locator will findBy.xpath: //*[@id='content']/ul/li[22]/a
+15:27:52.944 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:52.953 [main] INFO  theInternet.utils.MyListener - The locator found By.xpath: //*[@id='content']/ul/li[22]/a
+15:27:52.953 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:53.121 [main] INFO  theInternet.utils.MyListener - The locator will findBy.xpath: //*[@id='content']/div/ul/li[1]/a
+15:27:53.121 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:53.199 [main] INFO  theInternet.utils.MyListener - The locator found By.xpath: //*[@id='content']/div/ul/li[1]/a
+15:27:53.199 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:53.616 [main] INFO  theInternet.utils.MyListener - The locator will findBy.xpath: /html/frameset/frame[1]
+15:27:53.616 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:53.633 [main] INFO  theInternet.utils.MyListener - The locator found By.xpath: /html/frameset/frame[1]
+15:27:53.633 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:53.667 [main] INFO  theInternet.utils.MyListener - The locator will findBy.tagName: body
+15:27:53.667 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:27:53.675 [main] INFO  theInternet.utils.MyListener - The locator found By.tagName: body
+15:27:53.675 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:00.530 [main] INFO  com_TheInternet_Tests.TestBase - Start test: nestedFrameTestRight
+15:28:00.532 [main] INFO  theInternet.utils.MyListener - The locator will findBy.xpath: //*[@id='content']/ul/li[22]/a
+15:28:00.535 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:00.546 [main] INFO  theInternet.utils.MyListener - The locator found By.xpath: //*[@id='content']/ul/li[22]/a
+15:28:00.546 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:00.742 [main] INFO  theInternet.utils.MyListener - The locator will findBy.xpath: //*[@id='content']/div/ul/li[1]/a
+15:28:00.744 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:00.756 [main] INFO  theInternet.utils.MyListener - The locator found By.xpath: //*[@id='content']/div/ul/li[1]/a
+15:28:00.756 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:01.221 [main] INFO  theInternet.utils.MyListener - The locator will findBy.xpath: /html/frameset/frame[1]
+15:28:01.221 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:01.236 [main] INFO  theInternet.utils.MyListener - The locator found By.xpath: /html/frameset/frame[1]
+15:28:01.236 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:01.270 [main] INFO  theInternet.utils.MyListener - The locator will findBy.tagName: body
+15:28:01.270 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:01.279 [main] INFO  theInternet.utils.MyListener - The locator found By.tagName: body
+15:28:01.279 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:05.207 [main] INFO  com_TheInternet_Tests.TestBase - Start test: positiveIFrame
+15:28:05.209 [main] INFO  theInternet.utils.MyListener - The locator will findBy.xpath: //*[@id='content']/ul/li[22]/a
+15:28:05.209 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:05.217 [main] INFO  theInternet.utils.MyListener - The locator found By.xpath: //*[@id='content']/ul/li[22]/a
+15:28:05.218 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:05.398 [main] INFO  theInternet.utils.MyListener - The locator will findBy.xpath: //*[@id='content']/div/ul/li[2]/a
+15:28:05.398 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:05.410 [main] INFO  theInternet.utils.MyListener - The locator found By.xpath: //*[@id='content']/div/ul/li[2]/a
+15:28:05.410 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:06.720 [main] INFO  theInternet.utils.MyListener - Before find elements By.tagName: iframe
+15:28:06.720 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:06.728 [main] INFO  theInternet.utils.MyListener - List size is 1
+15:28:06.728 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:06.738 [main] INFO  theInternet.utils.MyListener - The locator will findBy.xpath: //p[contains(text(),'Your content goes here')]
+15:28:06.738 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:06.804 [main] INFO  theInternet.utils.MyListener - The locator found By.xpath: //p[contains(text(),'Your content goes here')]
+15:28:06.804 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:10.639 [main] INFO  com_TheInternet_Tests.TestBase - Start test: dragDropTest
+15:28:10.640 [main] INFO  theInternet.utils.MyListener - The locator will findBy.cssSelector: a[href='/drag_and_drop']
+15:28:10.640 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:10.648 [main] INFO  theInternet.utils.MyListener - The locator found By.cssSelector: a[href='/drag_and_drop']
+15:28:10.648 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:10.895 [Forwarding actions on session e08c54bfbb33de375e217fd27fad164e to remote] INFO  theInternet.utils.MyListener - The locator will findBy.id: column-a
+15:28:10.895 [Forwarding actions on session e08c54bfbb33de375e217fd27fad164e to remote] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:10.903 [Forwarding actions on session e08c54bfbb33de375e217fd27fad164e to remote] INFO  theInternet.utils.MyListener - The locator found By.id: column-a
+15:28:10.903 [Forwarding actions on session e08c54bfbb33de375e217fd27fad164e to remote] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:10.904 [Forwarding actions on session e08c54bfbb33de375e217fd27fad164e to remote] INFO  theInternet.utils.MyListener - The locator will findBy.id: column-b
+15:28:10.904 [Forwarding actions on session e08c54bfbb33de375e217fd27fad164e to remote] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:10.914 [Forwarding actions on session e08c54bfbb33de375e217fd27fad164e to remote] INFO  theInternet.utils.MyListener - The locator found By.id: column-b
+15:28:10.914 [Forwarding actions on session e08c54bfbb33de375e217fd27fad164e to remote] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:11.138 [main] INFO  theInternet.utils.MyListener - The locator will findBy.id: column-b
+15:28:11.138 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:11.144 [main] INFO  theInternet.utils.MyListener - The locator found By.id: column-b
+15:28:11.144 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:16.658 [main] INFO  com_TheInternet_Tests.TestBase - Start test: entryAdTest
+15:28:16.658 [main] INFO  theInternet.utils.MyListener - The locator will findBy.xpath: //a[contains(text(),'Entry Ad')]
+15:28:16.659 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:16.667 [main] INFO  theInternet.utils.MyListener - The locator found By.xpath: //a[contains(text(),'Entry Ad')]
+15:28:16.667 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:16.841 [main] INFO  theInternet.utils.MyListener - The locator will findBy.id: restart-ad
+15:28:16.841 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:16.850 [main] INFO  theInternet.utils.MyListener - The locator found By.id: restart-ad
+15:28:16.850 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:18.085 [main] INFO  theInternet.utils.MyListener - The locator will findBy.xpath: //p[contains(text(),'Close')]
+15:28:18.085 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:18.097 [main] INFO  theInternet.utils.MyListener - The locator found By.xpath: //p[contains(text(),'Close')]
+15:28:18.098 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:18.129 [main] INFO  theInternet.utils.MyListener - The locator will findBy.id: page-footer
+15:28:18.129 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:18.136 [main] INFO  theInternet.utils.MyListener - The locator found By.id: page-footer
+15:28:18.136 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:22.197 [main] INFO  com_TheInternet_Tests.TestBase - Start test: firstAlert
+15:28:22.199 [main] INFO  theInternet.utils.MyListener - The locator will findBy.xpath: //a[contains(text(),'JavaScript Alerts')]
+15:28:22.199 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:22.208 [main] INFO  theInternet.utils.MyListener - The locator found By.xpath: //a[contains(text(),'JavaScript Alerts')]
+15:28:22.208 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:22.453 [main] INFO  theInternet.utils.MyListener - The locator will findBy.xpath: //button[contains(text(),'Click for JS Alert')]
+15:28:22.453 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:22.551 [main] INFO  theInternet.utils.MyListener - The locator found By.xpath: //button[contains(text(),'Click for JS Alert')]
+15:28:22.553 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:26.595 [main] INFO  com_TheInternet_Tests.TestBase - Start test: secondAlert
+15:28:26.596 [main] INFO  theInternet.utils.MyListener - The locator will findBy.xpath: //a[contains(text(),'JavaScript Alerts')]
+15:28:26.596 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:26.606 [main] INFO  theInternet.utils.MyListener - The locator found By.xpath: //a[contains(text(),'JavaScript Alerts')]
+15:28:26.606 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:26.778 [main] INFO  theInternet.utils.MyListener - The locator will findBy.xpath: //button[contains(text(),'Click for JS Confirm')]
+15:28:26.778 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:26.788 [main] INFO  theInternet.utils.MyListener - The locator found By.xpath: //button[contains(text(),'Click for JS Confirm')]
+15:28:26.788 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:30.942 [main] INFO  com_TheInternet_Tests.TestBase - Start test: secondAlertTest
+15:28:30.942 [main] INFO  theInternet.utils.MyListener - The locator will findBy.xpath: //a[contains(text(),'JavaScript Alerts')]
+15:28:30.943 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:30.951 [main] INFO  theInternet.utils.MyListener - The locator found By.xpath: //a[contains(text(),'JavaScript Alerts')]
+15:28:30.951 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:31.127 [main] INFO  theInternet.utils.MyListener - The locator will findBy.xpath: //button[contains(text(),'Click for JS Confirm')]
+15:28:31.127 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:31.138 [main] INFO  theInternet.utils.MyListener - The locator found By.xpath: //button[contains(text(),'Click for JS Confirm')]
+15:28:31.138 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:31.285 [main] INFO  theInternet.utils.MyListener - The locator will findBy.xpath: //button[contains(text(),'Click for JS Alert')]
+15:28:31.285 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:31.300 [main] INFO  theInternet.utils.MyListener - The locator found By.xpath: //button[contains(text(),'Click for JS Alert')]
+15:28:31.300 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:35.093 [main] INFO  com_TheInternet_Tests.TestBase - Start test: thirdAlertTest
+15:28:35.094 [main] INFO  theInternet.utils.MyListener - The locator will findBy.xpath: //a[contains(text(),'JavaScript Alerts')]
+15:28:35.094 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:35.103 [main] INFO  theInternet.utils.MyListener - The locator found By.xpath: //a[contains(text(),'JavaScript Alerts')]
+15:28:35.103 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:35.275 [main] INFO  theInternet.utils.MyListener - The locator will findBy.xpath: //button[contains(text(),'Click for JS Prompt')]
+15:28:35.276 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:35.287 [main] INFO  theInternet.utils.MyListener - The locator found By.xpath: //button[contains(text(),'Click for JS Prompt')]
+15:28:35.288 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:35.463 [main] INFO  theInternet.utils.MyListener - The locator will findBy.id: result
+15:28:35.463 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:35.473 [main] INFO  theInternet.utils.MyListener - The locator found By.id: result
+15:28:35.473 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:39.662 [main] INFO  com_TheInternet_Tests.TestBase - Start test: multiWindow
+15:28:39.666 [main] INFO  theInternet.utils.MyListener - The locator will findBy.cssSelector: #content > ul > li:nth-child(33) > a
+15:28:39.666 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:39.674 [main] INFO  theInternet.utils.MyListener - The locator found By.cssSelector: #content > ul > li:nth-child(33) > a
+15:28:39.675 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:39.870 [main] INFO  theInternet.utils.MyListener - The locator will findBy.xpath: //a[contains(text(),'Click Here')]
+15:28:39.870 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:39.963 [main] INFO  theInternet.utils.MyListener - The locator found By.xpath: //a[contains(text(),'Click Here')]
+15:28:39.963 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:40.016 [main] INFO  theInternet.utils.MyListener - The locator will findBy.xpath: /html/body/div/h3
+15:28:40.016 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:40.144 [main] INFO  theInternet.utils.MyListener - The locator found By.xpath: /html/body/div/h3
+15:28:40.144 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:44.491 [main] INFO  com_TheInternet_Tests.TestBase - Start test: sliderTest
+15:28:44.492 [main] INFO  theInternet.utils.MyListener - The locator will findBy.cssSelector: a[href='/horizontal_slider']
+15:28:44.492 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:44.505 [main] INFO  theInternet.utils.MyListener - The locator found By.cssSelector: a[href='/horizontal_slider']
+15:28:44.505 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:44.695 [Forwarding actions on session 4c4787b84d37103b107881a811c8c397 to remote] INFO  theInternet.utils.MyListener - The locator will findBy.cssSelector: input[type='range']
+15:28:44.695 [Forwarding actions on session 4c4787b84d37103b107881a811c8c397 to remote] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:44.705 [Forwarding actions on session 4c4787b84d37103b107881a811c8c397 to remote] INFO  theInternet.utils.MyListener - The locator found By.cssSelector: input[type='range']
+15:28:44.705 [Forwarding actions on session 4c4787b84d37103b107881a811c8c397 to remote] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:46.161 [main] INFO  theInternet.utils.MyListener - The locator will findBy.id: range
+15:28:46.161 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:46.169 [main] INFO  theInternet.utils.MyListener - The locator found By.id: range
+15:28:46.170 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:51.711 [main] INFO  com_TheInternet_Tests.TestBase - Start test: uploadFileTest
+15:28:51.712 [main] INFO  theInternet.utils.MyListener - The locator will findBy.cssSelector: a[href='/upload']
+15:28:51.713 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:51.721 [main] INFO  theInternet.utils.MyListener - The locator found By.cssSelector: a[href='/upload']
+15:28:51.722 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:52.623 [main] INFO  theInternet.utils.MyListener - The locator will findBy.id: file-upload
+15:28:52.623 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:52.631 [main] INFO  theInternet.utils.MyListener - The locator found By.id: file-upload
+15:28:52.631 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:53.652 [main] INFO  theInternet.utils.MyListener - The locator will findBy.id: file-submit
+15:28:53.652 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:53.670 [main] INFO  theInternet.utils.MyListener - The locator found By.id: file-submit
+15:28:53.670 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:53.866 [main] INFO  theInternet.utils.MyListener - The locator will findBy.tagName: h3
+15:28:53.866 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
+15:28:53.878 [main] INFO  theInternet.utils.MyListener - The locator found By.tagName: h3
+15:28:53.878 [main] INFO  theInternet.utils.MyListener - ***********************************************************************
